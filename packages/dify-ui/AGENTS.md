@@ -2,6 +2,14 @@
 
 Shared design tokens, the `cn()` utility, CSS-first Tailwind styles, and headless primitive components consumed by `web/`.
 
+## Quick commands
+
+| Task       | Command                               |
+| :--------- | :------------------------------------ |
+| Test       | `pnpm -C packages/dify-ui test`       |
+| Storybook  | `pnpm -C packages/dify-ui storybook`  |
+| Type-check | `pnpm -C packages/dify-ui type-check` |
+
 ## Component Authoring Rules
 
 - Use `@base-ui/react` primitives + `cva` + `cn`.

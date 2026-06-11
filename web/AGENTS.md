@@ -1,5 +1,18 @@
 ## Frontend Workflow
 
+### Quick commands
+
+| Task                | Command                  |
+| :------------------ | :----------------------- |
+| Dev server          | `pnpm -C web dev`        |
+| Dev server (vinext) | `pnpm -C web dev:vinext` |
+| Dev proxy           | `pnpm -C web dev:proxy`  |
+| Build               | `pnpm -C web build`      |
+| Lint                | `pnpm -C web lint:fix`   |
+| Type-check          | `pnpm -C web type-check` |
+| Test                | `pnpm -C web test`       |
+| Storybook           | `pnpm -C web storybook`  |
+
 - Refer to the `./docs/test.md` and `./docs/lint.md` for detailed frontend workflow instructions.
 - For frontend coding tasks, also apply the repo-local `how-to-write-component` skill when the change touches React components, state ownership, routing, styling, or Tailwind classes.
 - For frontend reviews, use the repo-local `frontend-code-review` skill as the canonical checklist.

@@ -15,6 +15,13 @@ The codebase is split into:
 - **Shared Packages** (`/packages`): `dify-ui` (design tokens + primitives), `iconify-collections`, `contracts`, `dev-proxy`, `tsconfig`
 - **SDKs** (`/sdks`): Node.js client SDK
 
+## Prerequisites
+
+- **Node.js**: `^22.22.1` (see `.nvmrc`)
+- **pnpm**: enabled via Corepack (`corepack enable`)
+- **uv**: Python package manager (replaces poetry since v1.3.0)
+- **Docker & Docker Compose**: required for middleware and E2E tests
+
 ## Backend Workflow
 
 - Read `api/AGENTS.md` for details
